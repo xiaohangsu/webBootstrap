@@ -1,3 +1,4 @@
+#!~/.nvm/versions/node/v8.1.2/bin node
 const CONFIG       = require('process').argv[2];
 const Router       = require('koa-router');
 const send         = require('koa-send');
@@ -13,7 +14,7 @@ if (CONFIG === 'dev') {
 
 router.get('/', (ctx, next)=> {
     return ctx.render('../views/index.html', {
-    	staticPath: STATIC_PATH
+        staticPath: STATIC_PATH
     });
 });
 
