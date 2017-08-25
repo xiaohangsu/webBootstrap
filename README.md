@@ -2,7 +2,7 @@
 Bootstrap Setup for future web project used
 
 ## package
-* vue
+* React
 * webpack
 * scss
 * koa2
