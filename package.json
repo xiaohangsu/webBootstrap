@@ -1,7 +1,8 @@
 {
   "name": "web-compiler",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://github.com/xiaohangsu/webBootstrap",
+  "repository":
   "main": "",
   "scripts": {
     "build": "./node_modules/.bin/webpack-dev-server",
@@ -31,7 +32,8 @@
     "koa-views": "^6.0.1",
     "mysql": "^2.13.0",
     "nodemon": "^1.11.0",
-    "sequelize": "^3.30.3",
-    "vue": "^2.3.4"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "sequelize": "^3.30.3"
   }
 }
